@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1e2a38;
+      
+    }
+
+    h1 {
+      text-align: center;
+      color: #fff;
+      margin-top: 20px;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+
+    .about-container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #243447;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .about-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      animation: slideInLeft 1.2s ease-in-out;
+    }
+
+    .about-text {
+      text-align: justify;
+      color: #555;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .team-section {
+      margin-top: 30px;
+    }
+
+    .team-title {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fff;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    
+
+    .team-members {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .team-member {
+      text-align: center;
+      width: 150px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .team-member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .team-member h3 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    .team-member p {
+      font-size: 14px;
+      color: #777;
+    }
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideInLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(-100px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="about-container">
+    <h1>About Us</h1>
+    <div class="about-content">
+      <img src="https://via.placeholder.com/900x400" alt="About Us Image">
+      <p class="about-text">
+        
+      </p>
+    </div>
+
+    <div class="team-section">
+      <h2 class="team-title">Meet Our Team</h2>
+      <div class="team-members">
+        <div class="team-member">
+          <img src="https://via.placeholder.com/100" alt="Team Member 1">
+          <p>Debasis Sikder</p>
+        </div>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/100" alt="Team Member 2">
+          <p>Soudip Dutta</p>
+        </div>
+        <div class="team-member">
+          <img src="https://via.placeholder.com/100" alt="Team Member 3">
+          <p>Debhargha  Dutta</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/100" alt="Team Member 3">
+            <p>Srijani karmakar</p>
+          </div>
+          <div class="team-member">
+            <img src="https://via.placeholder.com/100" alt="Team Member 3">
+            <p>Subhodeep modok</p>
+          </div>
+          <div class="team-member">
+            <img src="https://via.placeholder.com/100" alt="Team Member 3">
+            <p>Ayan Kundu</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
